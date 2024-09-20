@@ -19,6 +19,7 @@ bio =" Biology "
 Ea = " Earth sciences "
 ###.....
 sh = colored("Your subjects tomorow is : ",'light_green')
+### Daily Subjects
 sun = [ eng, pc, pc, his, isl, ma, ar ]
 mon =  [ma, isl, ph, eng, ar, ch, isl]
 tues = [ eng, ma, ch, isl, ar, his ]
