@@ -19,9 +19,9 @@ bio =" Biology "
 Ea = " Earth sciences "
 ###.....
 sh = colored("Your subjects tomorow is : ",'light_green')
-### Daily Subjects
+###
 sun = [ eng, pc, pc, his, isl, ma, ar ]
-mon =  [ma, isl, ph, eng, ar, ch, isl]
+mon =  [ ma, isl, ph, eng, ar, ch, isl ]
 tues = [ eng, ma, ch, isl, ar, his ]
 wednes = [ ph, isl, his, eng, ar, ar ]
 thurs= [ ar, isl, eng, ma, Ea, bio ]
@@ -30,7 +30,7 @@ print("Today is : ",day)
 ### done
 if day == "Saturday":
     print(sh,color(sun))
-elif day == "Sunday" or "Friday" or "Thursday":
+elif day == "Sunday":
     print(sh,color(mon))
 elif day == "Monday":
     print(sh,color(tues))
@@ -38,6 +38,6 @@ elif day == "Tuesday":
     print(sh,color(wednes))
 elif day == "Wednseday":
     print(sh,color(thurs))
-print(colored("Programed By : H21" ,'light_red'))
+print(colored("Programed By : TXC21" ,'light_red'))
 input()
 ### This Program Is For The DailyRationProgram
